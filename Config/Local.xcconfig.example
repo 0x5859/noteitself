@@ -1,0 +1,10 @@
+// Copy this file to Config/Local.xcconfig and fill it in. Local.xcconfig is
+// ignored by git, so your team ID and bundle identifier stay on your machine.
+
+// Your Apple developer team (Xcode → Settings → Accounts, or the "OU" field of
+// your signing certificate).
+DEVELOPMENT_TEAM = ABCDE12345
+
+// Any reverse-DNS name you control. It must be unique across the App Store,
+// and changing it later installs a separate app with its own notes.
+NOTEITSELF_BUNDLE_ID = com.yourname.noteitself

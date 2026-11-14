@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  noteitself app icon: a ruled page with a folded corner and a pencil about to write.
+
+  Original artwork by the project's author, redrawn as vector geometry. Full-bleed
+  square; iOS applies the rounded mask itself. The artwork group keeps the
+  coordinates of the author's 1254 px drawing it was measured from, and the group
+  transform maps that drawing's 1203 px icon area onto the 1024 px canvas.
+
+  Tools/Icon/make_icon.py renders this file into the asset catalog.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>noteitself</title>
+  <rect width="1024" height="1024" fill="#ffffff"/>
+
+  <g transform="scale(0.851205) translate(-23 -27)"
+     fill="none" stroke="#0a0a0a" stroke-width="35">
+
+    <!-- Page outline, clockwise from the top-left corner, with the cut corner. -->
+    <path d="M234.5 327.5 A76 76 0 0 1 310.5 251.5 H698.54
+             A18 18 0 0 1 711.27 256.77 L841.23 386.73 A18 18 0 0 1 846.5 399.46
+             V975.5 A76 76 0 0 1 770.5 1051.5 H310.5 A76 76 0 0 1 234.5 975.5 Z"/>
+    <!-- The folded flap. -->
+    <path d="M686.5 251.5 V387.5 A20 20 0 0 0 706.5 407.5 H846.5"/>
+
+    <!-- Rules. The pencil's clearance below trims the ones that reach it. -->
+    <path stroke-width="14" stroke-linecap="round"
+          d="M315 483 H766 M315 591.5 H766 M315 700 H766 M315 808.5 H766 M315 917 H647"/>
+
+    <!-- Pencil, drawn pointing up from its tip at the origin, then tilted. -->
+    <g transform="translate(663.7 1021.5) rotate(33.5)">
+      <!-- White clearance that separates the pencil from the page. -->
+      <g fill="#ffffff" stroke="#ffffff" stroke-width="45" stroke-linejoin="round">
+        <path d="M-68 -548 H68 V-158 L8.27 -19.21 A9 9 0 0 1 -8.27 -19.21 L-68 -158 Z"/>
+        <path d="M-69 -574 V-624 A52 52 0 0 1 -17 -676 H17 A52 52 0 0 1 69 -624 V-574 Z"/>
+      </g>
+      <g fill="#0a0a0a" stroke="none">
+        <!-- Barrel and sharpened end; the cut-out is the bare wood. -->
+        <path fill-rule="evenodd"
+              d="M-68 -548 H68 V-158 L8.27 -19.21 A9 9 0 0 1 -8.27 -19.21 L-68 -158 Z
+                 M-54 -155 H54 L15.8 -66 H-15.8 Z"/>
+        <!-- Eraser end, above the white band. -->
+        <path d="M-69 -574 V-624 A52 52 0 0 1 -17 -676 H17 A52 52 0 0 1 69 -624 V-574 Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

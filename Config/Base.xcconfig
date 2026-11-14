@@ -1,0 +1,10 @@
+// Build settings shared by every target and configuration.
+//
+// To run on your own iPad, copy Local.xcconfig.example to Local.xcconfig
+// (git ignores it) and put your team and a bundle identifier of your own there.
+
+DEVELOPMENT_TEAM =
+NOTEITSELF_BUNDLE_ID = com.example.noteitself
+NOTEITSELF_DOCUMENT_TYPE = $(NOTEITSELF_BUNDLE_ID).note
+
+#include? "Local.xcconfig"
